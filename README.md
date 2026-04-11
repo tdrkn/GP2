@@ -38,3 +38,28 @@ IGDB - это база данных игр, которая доступна по
 
 **Фильтр:** `rating != null & rating_count > 20` - берём только игры с достаточным количеством оценок.
 
+
+- `aggregated_rating`, `rating`, `total_rating` - средние оценки
+- `aggregated_rating_count`, `rating_count`, `total_rating_count` - количество оценок
+- `hypes` - уровень ожидания
+- `avg_time` - среднее время прохождения
+- `time_without_side_quests` - время без побочных квестов
+- `completely` - время для 100% прохождения
+- `number_of_missions` - количество миссий
+- `game_type` - тип игры
+- `mode_*` - режимы: Single/Multi/Co-op/Battle Royale/MMO/Split screen
+- `genre_*` - жанры: RPG, Shooter, Strategy, Adventure и др.
+- `theme_*` - темы: Action, Fantasy, Horror, Open world и др.
+- `price`, `currency` - цена и валюта
+- `reviews_total_reviews` - количество отзывов
+- `reviews_rating_value` - рейтинг отзывов
+- `platform_*` (10 шт) - PC/Mac/Linux/PS/Xbox/Nintendo/Mobile и др.
+- `available_platforms` - количество доступных платформ
+- `developer`, `new_companies` - разработчики
+- `franchise`, `parent_game` - франшиза/оригинал
+- `remasters`, `remakes` - ремастеры/ремейки
+- `first_release_date`, `year` - дата релиза
+- `num_alt_names` - количество альтернативных названий
+- `name`, `slug` - название (+ приведенные к общему виду)
+- `keywords`, `tags`, `description` - описания игр
+- `additional_info` - доп. информация
